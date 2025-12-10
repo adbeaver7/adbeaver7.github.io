@@ -8361,7 +8361,7 @@ _.J$=0
 _.N$=b
 _.ap$=_.aj$=0},
 a09:function a09(){},
-aTe(){return new A.agj(A.my(A.Ap("http://3.39.234.230:8080",B.ro,A.ah(["Content-Type","application/json"],t.N,t.z),B.ro)))},
+aTe(){return new A.agj(A.my(A.Ap("https://adbeaver7.duckdns.org",B.ro,A.ah(["Content-Type","application/json"],t.N,t.z),B.ro)))},
 agj:function agj(a){this.a=a},
 asQ:function asQ(a){this.a=a},
 Xt(a){var s=0,r=A.E(t.H),q,p
@@ -8394,7 +8394,7 @@ s=1
 break}p=4
 n=A.my(null)
 s=7
-return A.t(n.a2Y("http://3.39.234.230:3000/api/users/"+A.l(f)+"/signup-bonus",t.z),$async$Xs)
+return A.t(n.a2Y("https://adbeaver7.duckdns.org/api/users/"+A.l(f)+"/signup-bonus",t.z),$async$Xs)
 case 7:m=c
 l=m.a
 J.aA(l,"bid")
@@ -31274,7 +31274,7 @@ return c.a(A.b53(a,b,s,s,s,s))},
 aN2(a,b,c,d){return A.beN(a,b,c,d)},
 beN(a,b,c,d){var s=0,r=A.E(t.N),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$aN2=A.F(function(e,f){if(e===1){o.push(f)
-s=p}for(;;)switch(s){case 0:i=A.dW("http://3.39.234.230:3000/api/auth/register",0,null)
+s=p}for(;;)switch(s){case 0:i=A.dW("https://adbeaver7.duckdns.org/api/auth/register",0,null)
 p=4
 l=t.N
 k=A.ah(["Content-Type","application/json; charset=UTF-8"],l,l)
@@ -31310,7 +31310,7 @@ return A.D($async$aN2,r)},
 aMN(a,b,c){return A.bet(a,b,c)},
 bet(a,b,c){var s=0,r=A.E(t.N),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$aMN=A.F(function(d,e){if(d===1){o.push(e)
-s=p}for(;;)switch(s){case 0:g=A.dW("http://3.39.234.230:3000/api/auth/login",0,null)
+s=p}for(;;)switch(s){case 0:g=A.dW("https://adbeaver7.duckdns.org/api/auth/login",0,null)
 p=4
 j=t.N
 i=A.ah(["Content-Type","application/json; charset=UTF-8"],j,j)
@@ -47993,7 +47993,7 @@ f=new A.Cj(A.b([],t.Iq),A.b([],t.cS))
 f.afJ(g,B.nL)
 k=f
 s=9
-return A.t(A.my(null).qT("http://3.39.234.230:3000/api/upload/image",k,h),$async$qq)
+return A.t(A.my(null).qT("https://adbeaver7.duckdns.org/api/upload/image",k,h),$async$qq)
 case 9:j=b
 if(j.c===200)n.T(new A.axH(n,j,m))
 else{h=n.c
@@ -48396,7 +48396,7 @@ p=4
 e={}
 d=t.N
 c=t.z
-m=A.my(A.Ap("http://3.39.234.230:3000",B.dD,A.ah(["Content-Type","application/json; charset=utf-8"],d,c),B.dD))
+m=A.my(A.Ap("https://adbeaver7.duckdns.org",B.dD,A.ah(["Content-Type","application/json; charset=utf-8"],d,c),B.dD))
 s=7
 return A.t(J.aNz(m,"/api/rtb/campaigns/"+a0+"/stats",c),$async$AK)
 case 7:l=a2
@@ -48660,7 +48660,7 @@ s=p}for(;;)switch(s){case 0:n.T(new A.ayz(n))
 p=4
 e=t.N
 d=t.z
-m=A.my(A.Ap("http://3.39.234.230:3000",B.dD,A.ah(["Content-Type","application/json; charset=utf-8"],e,d),B.dD))
+m=A.my(A.Ap("https://adbeaver7.duckdns.org",B.dD,A.ah(["Content-Type","application/json; charset=utf-8"],e,d),B.dD))
 s=7
 return A.t(J.aNz(m,"/api/rtb/campaigns/"+A.l(n.a.c)+"/stats",d),$async$vP)
 case 7:l=a0
@@ -49327,7 +49327,7 @@ $1(a){var s=t.N,r=A.i6(B.dc,!0,s)
 return new A.qB(new A.abg(r,A.i6(B.dc,!0,s)),$.au())},
 $S:490}
 A.aMT.prototype={
-$1(a){return new A.ub(new A.asQ(new A.aha()),new A.ax6(A.my(A.Ap("http://3.39.234.230:3000",B.dD,B.a3z,B.dD))),$.au())},
+$1(a){return new A.ub(new A.asQ(new A.aha()),new A.ax6(A.my(A.Ap("https://adbeaver7.duckdns.org",B.dD,B.a3z,B.dD))),$.au())},
 $S:487}
 A.MP.prototype={
 L(a){var s=null
@@ -49400,7 +49400,7 @@ s=1
 break}p=4
 l=A.my(null)
 s=7
-return A.t(J.aNz(l,"http://3.39.234.230:3000/api/ads/user/"+A.l(m),t.z),$async$nW)
+return A.t(J.aNz(l,"https://adbeaver7.duckdns.org/api/ads/user/"+A.l(m),t.z),$async$nW)
 case 7:k=b
 if(n.c!=null)n.T(new A.aEM(n,k))
 p=2
@@ -49638,7 +49638,7 @@ case 3:if(b!==!0){s=1
 break}m.T(new A.aFz(m))
 p=5
 g=t.z
-j=A.my(A.Ap("http://3.39.234.230:3000",B.dD,A.ah(["Content-Type","application/json; charset=utf-8"],t.N,g),B.dD))
+j=A.my(A.Ap("https://adbeaver7.duckdns.org",B.dD,A.ah(["Content-Type","application/json; charset=utf-8"],t.N,g),B.dD))
 s=8
 return A.t(J.b1L(j,"/api/users/"+A.l(k),null,null,A.aO8("DELETE",null),null,g),$async$rY)
 case 8:s=9
@@ -49734,7 +49734,7 @@ A.agj.prototype={
 zM(a){return this.a5o(a)},
 a5o(a){var s=0,r=A.E(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g
 var $async$zM=A.F(function(b,c){if(b===1){p.push(c)
-s=q}for(;;)switch(s){case 0:A.dZ().$1("[sendCode] baseUrl = http://3.39.234.230:8080")
+s=q}for(;;)switch(s){case 0:A.dZ().$1("[sendCode] baseUrl = https://adbeaver7.duckdns.org")
 q=3
 i=t.N
 s=6
@@ -49771,7 +49771,7 @@ return A.D($async$zM,r)},
 zL(a){return this.a5m(a)},
 a5m(a){var s=0,r=A.E(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g
 var $async$zL=A.F(function(b,c){if(b===1){p.push(c)
-s=q}for(;;)switch(s){case 0:A.dZ().$1(" [sendCode] baseUrl = http://3.39.234.230:8080")
+s=q}for(;;)switch(s){case 0:A.dZ().$1(" [sendCode] baseUrl = https://adbeaver7.duckdns.org")
 q=3
 i=t.N
 s=6
@@ -50506,7 +50506,7 @@ p=4
 m=A.my(null)
 h=t.z
 s=7
-return A.t(m.qT("http://3.39.234.230:3000/api/ads",n,h),$async$C1)
+return A.t(m.qT("https://adbeaver7.duckdns.org/api/ads",n,h),$async$C1)
 case 7:l=a0
 if(l.c===200){if(a.e==null){s=1
 break}A.cP(a,!1,k).O4()
