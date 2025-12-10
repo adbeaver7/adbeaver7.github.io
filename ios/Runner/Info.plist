@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- URL Schemes: Naver & Kakao -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <!-- Naver Login -->
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <!-- Naver URL Scheme -->
+                <string>adbeaver</string>
+            </array>
+        </dict>
+
+        <!-- Kakao Login -->
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <!-- kakao + NativeAppKey -->
+                <string>kakao32dab713d411d882ecefa59843151c3c</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- Kakao Native App Key -->
+    <key>KAKAO_NATIVE_APP_KEY</key>
+    <string>32dab713d411d882ecefa59843151c3c</string>
+
+    <!-- 외부 앱 쿼리 허용 (Naver, Kakao) -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <!-- Naver -->
+        <string>naversearchapp</string>
+        <string>naversearchthirdlogin</string>
+
+        <!-- Kakao -->
+        <string>kakaokompassauth</string>
+        <string>kakaolink</string>
+        <string>kakaotalk</string>
+    </array>
+
+    <!-- Naver SDK 설정 -->
+    <key>NidUrlScheme</key>
+    <string>adbeaver</string>
+    <key>NidClientID</key>
+    <string>MhcPQm1iHREV7pCP9Fzg</string>
+    <key>NidClientSecret</key>
+    <string>LQIarWzepK</string>
+    <key>NidAppName</key>
+    <string>애드비버</string>
+
+    <!-- 기본 Flutter / iOS 설정들 -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Adbeaver</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>adbeaver</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+</dict>
+</plist>
